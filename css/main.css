@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(19, 19, 58);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(32, 27, 48);
+}
+
+.logo-1{
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    color: rgb(87, 160, 170);
+    display: flex;
+    letter-spacing: 4px;
+}
+
+.head22{
+    color: rgb(255, 255, 255);
+}
+
+.logo-1 h1{
+    padding: 4px;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+}
+
+.nav-link li{
+    padding: 20px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.nav-link a:hover{
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+}
+
+.p-text{
+    position: absolute;
+    margin-top: 250px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Poppins",sans-serif;
+}
+
+.p-text h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(240, 240, 240);
+    letter-spacing: 6px;
+}
+
+.p-text h5{
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.p-text a{
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: "Poppins",sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: rgb(17, 17, 87);
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.p-text a:hover,
+.p-text a:active{
+    background-color: rgb(40, 40, 134);
+}
+
+section{
+    width: 100%;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img{
+    position: absolute;
+    width: 70%;
+    opacity: 60%;
+}
+
